@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link data-require="bootstrap-css" data-semver="3.1.1" rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+        <link data-require="semantic-ui@*" data-semver="0.9.6" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.9.6/css/semantic.min.css" />
+        <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script data-require="semantic-ui@*" data-semver="0.9.6" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.9.6/javascript/semantic.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/products.js"></script>
+        <title>AngularJS</title>
+    </head>
+
+
+    <body ng-controller="StoreController as store">
+        <!-- Store Header -->
+        <header>
+            <h1 class="text-center">Flatlander Crafted Gems</h1>
+            <h2 class="text-center">– an Angular store –</h2>
+        </header>
+
+        <!-- Products Container -->
+        <div class="list-group">
+            <!-- Product Container -->
+            <div class="list-group-item">
+                <!--  $index Practice: -->
+                <h3>
+                    Gem # <em class="pull-right"></em>
+                </h3>
+                <!-- Image Gallery -->
+                <div>
+                    <div class="img-wrap">
+                        <img class="img-thumbnail center-block" />
+                    </div>
+                    <ul class="img-thumbnails clearfix">
+                        <li class="small-image pull-left thumbnail">
+                            <img />
+                        </li>
+                    </ul>
+                </div>
+                <!-- Product Tabs -->
+
+            </div>
+        </div>
+    </body>
+
+
+
+</html>
