@@ -7,7 +7,7 @@
 
     app.controller('GalleryController', function() {
         this.imageIndex = 0;
-        this.currentImageChange = function(imageNumber) {
+        this.setCurrent = function(imageNumber) {
             console.log(imageNumber);
             this.imageIndex = imageNumber || 0;
         };
